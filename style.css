@@ -360,17 +360,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .logo{
     font-size:28px;
     font-weight:bold;
@@ -533,18 +522,6 @@ nav a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* LEARNING MODULES */
 
 .learning-modules{
@@ -609,13 +586,6 @@ nav a{
     color:#4a5568;
     line-height:1.8;
 }
-
-
-
-
-
-
-
 
 
 
@@ -717,4 +687,13 @@ audio{
     line-height:1.8;
     color:#4a5568;
     font-size:18px;
+}
+
+@media (max-width:768px) {
+    nav{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+    
 }
